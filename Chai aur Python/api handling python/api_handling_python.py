@@ -141,21 +141,21 @@ def main():
     #-------------------------------------------------------------------------------
     #                           FETCH RANDOM USER
     #-------------------------------------------------------------------------------
-    # try:
-    #     user_info_dict = fetch_random_user_freeapi()
-    #     print(user_info_dict)
-    # except Exception as e:
-    #     print(str(e))
+    try:
+        user_info_dict = fetch_random_user_freeapi()
+        print(user_info_dict)
+    except Exception as e:
+        print(str(e))
 
 
     #-------------------------------------------------------------------------------
     #                          FETCH RANDOM PRODUCT
     #-------------------------------------------------------------------------------
-    # try:
-    #     product_info_dict = fetch_random_product_freeapi()
-    #     print(product_info_dict)
-    # except Exception as e:
-    #     print(str(e))
+    try:
+        product_info_dict = fetch_random_product_freeapi()
+        print(product_info_dict)
+    except Exception as e:
+        print(str(e))
 
 
     #-------------------------------------------------------------------------------
