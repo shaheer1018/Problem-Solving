@@ -26,6 +26,7 @@ def add_video(name, time):
 
 def update_video(video_id, new_name, new_time):
     cursor.execute("UPDATE videos SET name = ?, time = ? WHERE id = ?", (new_name, new_time, video_id))
+    
 def delete_video(video_id):
     cursor.execute("DELETE FROM videos WHERE id = ?", (video_id,))
     conn.commit()
